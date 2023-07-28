@@ -67,11 +67,21 @@ type Mutation = {
 
 # NestJS
 
+https://docs.nestjs.com/
+
 - Angularにインスパイアされている
 - ExpressをベースとしているのでExpressで出来ることはNestでも出来る
   - Expressの機能やライブラリを利用することができる
+  - optionでfastifyをベースにすることも可能
 - 拡張性が高い
 - nest cliが便利
+- Express, FastifyでのネイティブAPIをそのまま使用できる
+
+## Why need Nest ?
+
+Nodeにおける便利なライブラリが日々誕生しているものの、アーキテクチャを標準化するという
+問題を解決するものはなかった、そこをNestが担う。
+
 
 ## アーキテクチャ
 
@@ -132,3 +142,12 @@ export class UserService {
   }
 }
 ```
+
+# instllation
+
+```
+nest new backend
+cd backend
+yarn add @nestjs/graphql @nestjs/apollo @apollo/server graphql
+```
+
