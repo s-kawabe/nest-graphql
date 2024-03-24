@@ -1,3 +1,5 @@
+udemy: https://www.udemy.com/share/108fp43@wD4vjdVtuFA9qRKBsl6ZkXrHBA6L4egbulCUvsHHOIlrrKkWfr6q_1OAP0I7rB6Hqg==/
+
 # GraphQL
 
 ## スカラー型
